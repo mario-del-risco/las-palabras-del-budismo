@@ -12,3 +12,9 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+// Calculate the height of the list
+const listHeight = document.querySelector('.many').offsetHeight;
+
+// Set the height of the single connector
+document.querySelector('.single-connector').style.height = `${listHeight}px`;

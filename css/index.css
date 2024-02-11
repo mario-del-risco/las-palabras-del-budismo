@@ -11,6 +11,6 @@ a {
   
   /* Styling the anchor tag when hovered */
   a:hover {
-    color: red; /* Changes text color to red on hover */
+    color: black; /* Changes text color to red on hover */
     text-decoration: underline; /* Underlines the link on hover */
   }

@@ -1,0 +1,53 @@
+.sequence {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Equal width columns */
+  align-items: center;
+  position: relative; /* Position the arrow relative to the sequence */
+  margin-bottom: 20px; /* Add space between the sequence and the second single */
+}
+
+.single {
+  text-align: right; /* Right-align the content */
+  padding: 20px;
+}
+
+.many {
+  list-style-type: decimal; /* Removes the default bullet points */
+  list-style-position: inside;
+  text-align: left;
+  margin: 20px; /* Add space between the single and the list */
+  /* Linear gradient background */
+  border-left: 1px solid #ccc;
+}
+
+.divider {
+  height: 1px; /* Color of the line */ /* Margin for spacing */
+  background: linear-gradient(to right, #ffffff, #cccccc, #ffffff); /* Gradient colors */
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 2px;
+  width: 100%;
+  border: none;
+  text-align: right;
+  outline: none;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
