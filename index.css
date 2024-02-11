@@ -1,0 +1,16 @@
+.articles {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling the default state of the anchor tag */
+a {
+    color: blue; /* Changes the text color to blue */
+    text-decoration: none; /* Removes underline */
+  }
+  
+  /* Styling the anchor tag when hovered */
+  a:hover {
+    color: red; /* Changes text color to red on hover */
+    text-decoration: underline; /* Underlines the link on hover */
+  }
